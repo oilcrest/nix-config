@@ -26,7 +26,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     secrets = {
-      url = "github.com:oilcrest/nix-secrets"; # Change this!
+      url = "git+ssh://git@github.com/oilcrest/nix-secrets.git"; # Change this!
       flake = false;
     };
   };
